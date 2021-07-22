@@ -1,0 +1,54 @@
+2021-07-22 18:32:38.256  INFO 17508 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-8C08V9O with PID 17508 (D:\4me\FWD\eCommerceApp\starter_code\target\classes started by mohamed aleskndrany in D:\4me\FWD\eCommerceApp)
+2021-07-22 18:32:38.263  INFO 17508 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-07-22 18:32:39.574  INFO 17508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-22 18:32:39.750  INFO 17508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148ms. Found 4 repository interfaces.
+2021-07-22 18:32:40.537  INFO 17508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3dbbcfee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-22 18:32:41.236  INFO 17508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-22 18:32:41.301  INFO 17508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-22 18:32:41.301  INFO 17508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-07-22 18:32:41.724  INFO 17508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-22 18:32:41.725  INFO 17508 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3335 ms
+2021-07-22 18:32:42.093  INFO 17508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-22 18:32:42.390  INFO 17508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-22 18:32:42.461  INFO 17508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-22 18:32:42.561  INFO 17508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-07-22 18:32:42.563  INFO 17508 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-07-22 18:32:42.754  INFO 17508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-22 18:32:42.927  INFO 17508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-07-22 18:32:43.815  INFO 17508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-22 18:32:44.526  WARN 17508 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-22 18:32:44.614  INFO 17508 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a1934e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@796cf2b5, org.springframework.security.web.header.HeaderWriterFilter@58a7ca42, org.springframework.web.filter.CorsFilter@6963b0bd, org.springframework.security.web.authentication.logout.LogoutFilter@6bf77ee, com.example.demo.security.JWTAuthenticationFilter@68a94e58, com.example.demo.security.JWTAuthenticationVerficationFilter@49741274, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16890f00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@403cff1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a49919c, org.springframework.security.web.session.SessionManagementFilter@1f6e6f50, org.springframework.security.web.access.ExceptionTranslationFilter@eebd983, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@214e3185]
+2021-07-22 18:32:44.756  INFO 17508 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-22 18:32:45.021  INFO 17508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-22 18:32:45.024  INFO 17508 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 7.417 seconds (JVM running for 8.048)
+2021-07-22 18:32:48.261  INFO 17508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-22 18:32:48.261  INFO 17508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-22 18:32:48.272  INFO 17508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-07-22 18:32:48.447  INFO 17508 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Start Creating User With Username: maleskndrany.
+2021-07-22 18:32:48.641  INFO 17508 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User Created Successfully With Username: maleskndrany.
+2021-07-22 18:32:56.106  INFO 17508 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Start Creating User With Username: test.
+2021-07-22 18:32:56.186  INFO 17508 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : User Created Successfully With Username: test.
+2021-07-22 18:33:05.433  INFO 17508 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Start Creating User With Username: test2.
+2021-07-22 18:33:05.513  INFO 17508 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : User Created Successfully With Username: test2.
+2021-07-22 18:33:08.393  INFO 17508 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Start Creating User With Username: test2.
+2021-07-22 18:33:08.395 ERROR 17508 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Error Creating User With Username: test2,Reason: Incorrect Password.
+2021-07-22 18:33:14.716  INFO 17508 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Start Creating User With Username: test3.
+2021-07-22 18:33:14.803  INFO 17508 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : User Created Successfully With Username: test3.
+2021-07-22 18:33:17.333  INFO 17508 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : Start Creating User With Username: test4.
+2021-07-22 18:33:17.425  INFO 17508 --- [http-nio-8080-exec-8] c.e.demo.controllers.UserController      : User Created Successfully With Username: test4.
+2021-07-22 18:33:20.258  INFO 17508 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Start Creating User With Username: test5.
+2021-07-22 18:33:20.343  INFO 17508 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : User Created Successfully With Username: test5.
+2021-07-22 18:33:23.466  INFO 17508 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Start Creating User With Username: test6.
+2021-07-22 18:33:23.552  INFO 17508 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : User Created Successfully With Username: test6.
+2021-07-22 18:33:26.486  INFO 17508 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : Start Creating User With Username: test7.
+2021-07-22 18:33:26.571  INFO 17508 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User Created Successfully With Username: test7.
+2021-07-22 18:33:29.026  INFO 17508 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Start Creating User With Username: test8.
+2021-07-22 18:33:29.112  INFO 17508 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : User Created Successfully With Username: test8.
+2021-07-22 18:33:33.692  INFO 17508 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : Start Creating User With Username: test101.
+2021-07-22 18:33:33.775  INFO 17508 --- [http-nio-8080-exec-3] c.e.demo.controllers.UserController      : User Created Successfully With Username: test101.
+2021-07-22 18:33:37.110  INFO 17508 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Start Creating User With Username: test101.
+2021-07-22 18:33:37.111 ERROR 17508 --- [http-nio-8080-exec-4] c.e.demo.controllers.UserController      : Error Creating User With Username: test101,Reason: Incorrect Password.
+2021-07-22 18:33:42.507  INFO 17508 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : Start Creating User With Username: test101e.
+2021-07-22 18:33:42.594  INFO 17508 --- [http-nio-8080-exec-6] c.e.demo.controllers.UserController      : User Created Successfully With Username: test101e.
